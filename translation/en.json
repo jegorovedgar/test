@@ -1,0 +1,27 @@
+{
+    "expMonth": {
+        "errorInvalid": "Skal være mellem 1 og 12",
+        "label": "Udløbsmåned",
+        "placeholder": "Indtast udløbsmåned"
+    },
+    "expYear": {
+        "label": "Udløbsår",
+        "placeholder": "Indtast udløbsår",
+        "errorExpired": "Kortet er udløbet"
+    },
+    "error": {
+        "generalError": "Der skete en fejl. Prøv venligst igen",
+        "maxCards": "Du kan ikke tilføje flere kort"
+    },
+    "btn": {
+        "save": "Add card"
+    },
+    "card": {
+        "errorInvalid": "Ugyldigt kortnummer",
+        "unsupportedType": "Denne korttype kan ikke bruges",
+        "unsupportedBinRange": "Dette kortnummer kan ikke bruges",
+        "label": "Kortnummer",
+        "placeholder": "Indtast kortnummer",
+        "duplicate": "Kortet er allerede registreret"
+    }
+}
