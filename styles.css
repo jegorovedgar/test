@@ -1,3 +1,18 @@
-body {
-    background-color: red;
+html, body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+}
+
+.field-label {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+.field-input.input {
+    font-size: 16px;
+    border: 1px solid #5d5c5b;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0 22px;
+    line-height: 28px;
+    height: 56px;
 }
