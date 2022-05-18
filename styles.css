@@ -35,12 +35,21 @@ form {
 }
 
 .field-input {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .field-btn {
     padding: 0;
     width: 100%;
+}
+
+.field-validation-error {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: #e3000f;
+    display: block;
+    margin: 6px 0;
 }
 
 input {
@@ -56,6 +65,11 @@ input[type=tel] {
     padding: 0 22px;
     line-height: 28px;
     height: 56px;
+}
+
+.field-input-error input[type=tel] {
+    border-color: #e3000f;
+    color: #e3000f;
 }
 
 input[type=submit] {
