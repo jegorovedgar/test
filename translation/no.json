@@ -15,7 +15,7 @@
         "accountVerification": "Card could not be verified. It may be blocked or invalid"
     },
     "btn": {
-        "save": "Add Card (no)"
+        "save": "Add card (no)"
     },
     "accountno": {
         "errorInvalid": "Invalid account number",

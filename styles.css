@@ -3,11 +3,41 @@ html, body {
     font-size: 14px;
 }
 
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field:nth-child(1) {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.field:nth-child(2) {
+    width: 50%;
+}
+.field:nth-child(3) {
+    width: 50%;
+}
+.field:nth-child(4) {
+    margin-top: 10px;
+    width: 100%;
+}
+
 .field-label {
     font-size: 14px;
-    /* font-weight: 600; */
 }
-.field-input.input {
+
+.field-btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    outline: none;
+}
+
+input[type=tel] {
     font-size: 16px;
     border: 1px solid #5d5c5b;
     border-radius: 6px;
@@ -15,4 +45,19 @@ html, body {
     padding: 0 22px;
     line-height: 28px;
     height: 56px;
+}
+
+input[type=submit] {
+    background: #007a48;
+    color: #ffffff;
+    border: 0;
+    height: 48px;
+    font-size: 16px;
+    padding: 0 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #004a28;
 }
