@@ -4,6 +4,8 @@
 html, body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
+    padding: 0;
+    margin: 0;
 }
 
 form {
@@ -48,8 +50,12 @@ form {
     line-height: 20px;
     letter-spacing: normal;
     color: #e3000f;
-    display: block;
+    display: none;
     margin: 6px 0;
+}
+
+.field-input-error .field-validation-error {
+    display: block;
 }
 
 input {
