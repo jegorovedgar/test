@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
@@ -10,25 +13,29 @@ form {
 
 .field:nth-child(1) {
     width: 100%;
-    margin-bottom: 10px;
 }
 .field:nth-child(2) {
     width: 50%;
+    padding-right: 8px;
 }
 .field:nth-child(3) {
     width: 50%;
+    padding-left: 8px;
 }
 .field:nth-child(4) {
-    margin-top: 10px;
     width: 100%;
 }
 
 .field-label {
     font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 20px;
+    letter-spacing: normal;
+    margin-bottom: 8px;
 }
 
 .field-btn {
-    margin-top: 10px;
+    padding: 0;
     width: 100%;
 }
 
