@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 html, body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
@@ -13,19 +14,18 @@ form {
     flex-wrap: wrap;
 }
 
-.field-input:nth-child(1) {
+.field {
     width: 100%;
 }
-.field-input:nth-child(2) {
-    width: 50%;
+
+.field-input ~ .field-input {
+     width: 50%;
     padding-right: 8px;
 }
-.field-input:nth-child(3) {
+
+.field-input ~ .field-input ~ .field-input {
     width: 50%;
     padding-left: 8px;
-}
-.field-input:nth-child(4) {
-    width: 100%;
 }
 
 .field-label {
