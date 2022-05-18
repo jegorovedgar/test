@@ -1,27 +1,42 @@
 {
     "expMonth": {
-        "errorInvalid": "Skal være mellem 1 og 12",
-        "label": "Udløbsmåned",
-        "placeholder": "Indtast udløbsmåned"
+        "errorInvalid": "Invalid month",
+        "label": "Expiry month",
+        "placeholder": "MM"
     },
     "expYear": {
-        "label": "Udløbsår",
-        "placeholder": "Indtast udløbsår",
-        "errorExpired": "Kortet er udløbet"
+        "label": "Expiry year",
+        "placeholder": "YY",
+        "errorExpired": "Card has expired"
     },
     "error": {
-        "generalError": "Der skete en fejl. Prøv venligst igen",
-        "maxCards": "Du kan ikke tilføje flere kort"
+        "generalError": "Error, please try again",
+        "maxCards": "You have added maximum number of allowed cards to your user",
+        "accountVerification": "Card could not be verified. It may be blocked or invalid"
     },
     "btn": {
-        "save": "Add card"
+        "save": "Add Card"
+    },
+    "accountno": {
+        "errorInvalid": "Invalid account number",
+        "errorMinLength": "Has to be 11 digits",
+        "label": "Account number",
+        "placeholder": "Account number",
+        "duplicate": "Account number already exists"
+    },
+    "bankAccept": {
+        "errorInvalid": "Invalid account number",
+        "errorMinLength": "Has to be 11 digits",
+        "label": "Account number",
+        "placeholder": "Account number",
+        "duplicate": "Account number already exists"
     },
     "card": {
-        "errorInvalid": "Ugyldigt kortnummer",
-        "unsupportedType": "Denne korttype kan ikke bruges",
-        "unsupportedBinRange": "Dette kortnummer kan ikke bruges",
-        "label": "Kortnummer",
-        "placeholder": "Indtast kortnummer",
-        "duplicate": "Kortet er allerede registreret"
+        "errorInvalid": "Invalid card number",
+        "unsupportedType": "Unsupported card type",
+        "unsupportedBinRange": "Unsupported bin range",
+        "label": "Card number",
+        "placeholder": "Card number",
+        "duplicate": "Card is already registered"
     }
 }
